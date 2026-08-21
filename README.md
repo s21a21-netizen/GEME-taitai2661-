@@ -23,6 +23,7 @@
    brew install python
 
 **依存ライブラリのインストールと実行**
+
 pip3 install pygame-ce
 python3 game.py
 
