@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>† コンピュータ迷路攻略ゲーム OFFICIAL HOMEPAGE †</title>
+    <title>† コンピューター迷路攻略ゲーム OFFICIAL HOMEPAGE †</title>
     <style>
         body {
             background-color: #000000;
@@ -31,15 +31,6 @@
             padding: 5px;
             border: 1px dashed #FF0000;
         }
-        .counter {
-            border: 2px solid #FFFFFF;
-            background-color: #000000;
-            color: #FF0000;
-            font-family: monospace;
-            padding: 3px 8px;
-            font-size: 18px;
-            display: inline-block;
-        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -61,9 +52,9 @@
             background-color: #FFFF00;
         }
         .btn-dl {
-            display: block;
-            width: 250px;
-            margin: 20px auto;
+            display: inline-block;
+            width: 220px;
+            margin: 5px;
             padding: 10px;
             background-color: #FF0055;
             color: #FFFFFF !important;
@@ -74,6 +65,9 @@
         }
         .btn-dl:active {
             border: 3px inset #FFFFFF;
+        }
+        .btn-py {
+            background-color: #0088FF;
         }
         .footer {
             text-align: center;
@@ -86,19 +80,16 @@
 <body>
 
 <div class="container">
-    <h1>† AI 迷路攻略同盟 †</h1>
+    <h1>† コンピューター迷路攻略同盟 †</h1>
 
     <marquee scrollamount="5">
-        ★Welcome to My Homepage★ 更新日：2026/08/22 Windows版exe配布開始！！ キリ番（10000HIT）踏んだ人は掲示板まで報告ヨロシク！！
+        ★Welcome to My Homepage★ 更新日：2026/08/22 Windows版exe＆Mac用pyファイル配布開始！！ キリ番（10000HIT）踏んだ人は掲示板まで報告ヨロシク！！
     </marquee>
 
-<div style="text-align: center; margin: 15px 0;">
-    あなたは 
-    <!-- 無料アクセスカウンター画像 -->
-    <img src="<a href="https://www.stylemap.co.jp/"><img src="https://www.f-counter.net/j/67/1787388358/" alt="アクセスカウンター"></a>
-" alt="counter" style="vertical-align: middle;">
-    人目の迷い人です……
-</div>
+    <!-- リアルアクセスカウンター -->
+    <div style="text-align: center; margin: 15px 0;">
+        あなたは <a href="https://www.stylemap.co.jp/"><img src="https://www.f-counter.net/j/67/1787388358/" alt="アクセスカウンター" style="vertical-align: middle;"></a> 人目の迷い人です……
+    </div>
 
     <hr color="#00FFFF" size="2">
 
@@ -107,8 +98,11 @@
         世代交代を繰り返し、自力で迷路を攻略する近未来シミュレーション！！
     </p>
 
-    <!-- ダウンロードボタン -->
-    <a href="game.exe" class="btn-dl">★ DOWNLOAD (exe) ★</a>
+    <!-- ダウンロードボタンエリア（両方対応） -->
+    <div style="text-align: center; margin: 20px 0;">
+        <a href="game.exe" class="btn-dl">★ Windows版 (.exe) ★</a>
+        <a href="game.py" class="btn-dl btn-py">★ Python版 (.py) ★</a>
+    </div>
 
     <!-- スペック表 -->
     <table>
@@ -117,11 +111,11 @@
         </tr>
         <tr>
             <td width="30%">タイトル</td>
-            <td>AI 迷路攻略ゲーム (GA Resolver)</td>
+            <td>コンピューター迷路攻略ゲーム (GA Resolver)</td>
         </tr>
         <tr>
             <td>動作環境</td>
-            <td>Windows 10 / 11（MacはPython環境で動作可）</td>
+            <td>Windows 10 / 11（Mac/Linuxは.pyをPythonで実行）</td>
         </tr>
         <tr>
             <td>開発／配布</td>
@@ -132,17 +126,17 @@
     <!-- 更新履歴 -->
     <h3>■ Update History ■</h3>
     <ul>
-        <li>2026/08/22：サイト開設！v1.0 (exe版) テスト版を池崎亮介がプレイ</li>
+        <li>2026/08/22：サイト開設！v1.0 (exe版 / py版) 配布スタート</li>
     </ul>
 
     <!-- リンク・掲示板バナー風 -->
     <hr color="#00FFFF" size="1">
     <div style="text-align: center; font-size: 12px;">
-        【BBS】 | 【LINK FREE】 | 【WEB拍手】
+開発者リンク　https://x.com/taitai2661dayo?s=20
     </div>
 
     <div class="footer">
-        (C) 2026 AI MAZE PROJECT All Rights Reserved.<br>
+        (C) 2026 COMPUTER MAZE PROJECT All Rights Reserved.<br>
         ※当サイトは800×600の解像度、Internet Explorer 6.0以上での閲覧を推奨します。
     </div>
 </div>
