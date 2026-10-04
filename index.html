@@ -69,6 +69,16 @@
         .btn-py {
             background-color: #0088FF;
         }
+        .warning-notice {
+            margin: 15px auto;
+            padding: 10px;
+            width: 80%;
+            border: 2px dashed #FFFF00;
+            background-color: #222000;
+            text-align: center;
+            font-size: 13px;
+            color: #FFFF00;
+        }
         .footer {
             text-align: center;
             margin-top: 30px;
@@ -99,9 +109,16 @@
     </p>
 
     <!-- ダウンロードボタンエリア（両方対応） -->
-    <div style="text-align: center; margin: 20px 0;">
+    <div style="text-align: center; margin: 20px 0 10px 0;">
         <a href="game.exe" class="btn-dl">★ Windows版 (.exe) ★</a>
         <a href="game.py" class="btn-dl btn-py">★ Python版 (.py) ★</a>
+    </div>
+
+    <!-- ダウンロード警告対策リンク -->
+    <div class="warning-notice">
+        ⚠️ <strong>【重要】ダウンロード時・起動時に警告メッセージが出る方へ</strong><br>
+        「危険なファイル」「保護されました」と表示されて開けない場合は<br>
+        👉 <a href="tyuui.html" style="color: #00FFFF; font-weight: bold; text-decoration: underline;">【こちらの解決手順・セキュリティ解説ページ】</a> をご確認ください。
     </div>
 
     <!-- スペック表 -->
@@ -114,11 +131,11 @@
             <td>コンピューター迷路攻略ゲーム (GA Resolver)</td>
         </tr>
         <tr>
-            <td>動作環境</td>
+            <td width="30%">動作環境</td>
             <td>Windows 10 / 11（Mac/Linuxは.pyをPythonで実行）</td>
         </tr>
         <tr>
-            <td>開発／配布</td>
+            <td width="30%">開発／配布</td>
             <td>開発：taitai2661 ／ 配布：池崎亮介</td>
         </tr>
     </table>
@@ -132,7 +149,7 @@
     <!-- リンク・掲示板バナー風 -->
     <hr color="#00FFFF" size="1">
     <div style="text-align: center; font-size: 12px;">
-開発者リンク　https://x.com/taitai2661dayo?s=20
+開発者リンク https://x.com/taitai2661dayo?s=20
     </div>
 
     <div class="footer">
