@@ -1,4 +1,4 @@
-# AI 迷路攻略ゲーム (Genetic Algorithm Maze Resolver)
+# コンピューター 迷路攻略ゲーム (Genetic Algorithm Maze Resolver)
 
 遺伝的アルゴリズム（GA）を用いて、ドット状のコンピューターの個体たちが世代交代を繰り返しながら迷路の最短ルートを学習・攻略していくシミュレーションゲームです。
 
